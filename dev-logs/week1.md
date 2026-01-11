@@ -38,7 +38,7 @@ I sent my first transaction using the one-button click setup provided by the CKB
 You can view the transaction on the [CKB Explorer](https://testnet.explorer.nervos.org/transaction/0x19b3b93e0e2b02ed94f050d988a5186aec3f224f41b83752a6c754cc58cb3e26)
 
 ## Proof of Participation
-You can find the proof of participation [here](https://drive.google.com/drive/folders/1-A_dqp2pOULM0iGPVfbGE-vmvifc7hmT)
+You can find the proof of participation [here](https://drive.google.com/drive/folders/1eAT7nonzFrGXuf7cDeCnDUtyPUFM1daC?usp=drive_link)
 
 ## Challenges
 - I find it difficult to install the offckb cli on my PC even though I have installed the VS Build tools ( 2026 & 2019(assuming no support for latest versions)), downgraded my node to v22.21.1. I still cotinue to get errors with the node-gyp dep.
