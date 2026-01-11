@@ -1,6 +1,6 @@
 # CKBuilder Track Weekly Report — Week 1
-Name: Mayowa Temitope AKINYELE
-Week Ending: Jan 14, 2026
+-  Name: Mayowa Temitope AKINYELE
+-  Week Ending: Jan 14, 2026
 
 ## Courses Completed
 -  The Learn Module of the [Nervos Docs](https://docs.nervos.org/)
