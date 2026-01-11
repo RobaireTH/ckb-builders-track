@@ -1,9 +1,9 @@
 # CKBuilder Track Weekly Report — Week 1
--  Name: Mayowa Temitope AKINYELE
--  Week Ending: Jan 14, 2026
+-  Name: **Mayowa Temitope AKINYELE**
+-  Week Ending: **Jan 14, 2026**
 
 ## Courses Completed
--  The Learn Module of the [Nervos Docs](https://docs.nervos.org/)
+-  The Learn module of the [Nervos Docs](https://docs.nervos.org/)
 -  CKB basic theoretical knowledge
 -  CKB basic practical operation
 
@@ -30,7 +30,7 @@ Args: hexString}
 ```
 
 ## Practical Progress
-**First Trnsaction**
+### **First Transaction**
 I sent my first transaction using the one-button click setup provided by the CKB Academy practical operation. This gave me a good understanding of how the transactions happen on the blockhchain, from creation to confirmation.
 
 > Create > Sign > Broadcast > Validate > Propagate > Confirm
