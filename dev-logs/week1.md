@@ -6,7 +6,7 @@
 -  The Learn module of the [Nervos Docs](https://docs.nervos.org/)
 -  CKB basic theoretical knowledge & [practical operation](https://academy.ckb.dev/courses/basic-operation)
 -  Intro to [Script](https://docs.nervos.org/script/intro-to-script)
--  Program Languages for [Script](htpps://docs.nervos.org/script/program-language-for-script)
+-  Program [Languages for Script](htpps://docs.nervos.org/script/program-language-for-script)
 
 ## Key Learnings
 By going through the Nervos docs I have learned the following:
@@ -39,7 +39,9 @@ I sent my first transaction using the one-button click setup provided by the CKB
 You can view the transaction on the [CKB Explorer](https://testnet.explorer.nervos.org/transaction/0x19b3b93e0e2b02ed94f050d988a5186aec3f224f41b83752a6c754cc58cb3e26)
 
 ### Installations
-After reading through the Program Languages for Script, I installed the ```ckb-js-vm``` alongside the core packages. I also installed ```cargo``` and ```ckb-std``` for Rust with the hope of diving into Rust next week. Though, the plan is to continue with TypeScript since it is also supported.
+After reading through the Program Languages for Script;
+- I installed the ```ckb-js-vm``` alongside the core packages. I also installed ```cargo``` and ```ckb-std``` for Rust with the hope of diving into Rust next week. Though, the plan is to continue with TypeScript since it is also supported.
+- I installed ```rustc``` for Rust. 
 
 ## Proof of Participation
 You can find the proof of participation [here](https://drive.google.com/drive/folders/1eAT7nonzFrGXuf7cDeCnDUtyPUFM1daC?usp=drive_link)
