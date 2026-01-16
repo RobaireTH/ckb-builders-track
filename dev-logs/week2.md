@@ -69,4 +69,4 @@ For the problem I face last week concerning installing the ```offckb-cli```, I w
 ```bash
 npm install -g @offckb/cli@0.4.4-canary-c3742b9.0
 ```
-![Problem Fix](./public/offckb.PNG)
+![Problem Fix](../public/offckb.PNG)
