@@ -1,4 +1,4 @@
-# CKBuilder Track Weekly Report — Week 1
+# CKBuilder Track Weekly Report — Week 2
 -  Name: **Mayowa Temitope AKINYELE**
 -  Week Ending: **Jan 21, 2026**
 
@@ -45,7 +45,7 @@ fn main() -> i8 {
 ```
 - CoTA is used mostly for while Spores is used mostly for high value digital assets because of its high performance.
 - Lock and type scripts share the same deployment model. Only their execution timing is different. It is on creation for the type script while for the lock script, it is on consumption.
-- Scripts interact with the blockchain through syscalls and hereby give a sandboxed access to the transaction data.
+- Scripts interact with the blockchain through syscallks and hereby give a sandboxed access to the transaction data.
 - The type scripts protect system rules while the lock scripts protect users.
 - CKB executes each unique lock script from inputs once, and each unique type script from both inputs and outputs once.
 - A real secp256k1 lock extends the functionality of the lock script by adding a signature verification step as follows(```makefile```):
