@@ -1,0 +1,12 @@
+[package]
+name = "ckb-scripts"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+ckb-sdk = "5.0.0"      
+ckb-types = "1.0.2"     
+secp256k1 = "0.28.0"   
+rand = "0.8.5"         
+ckb-crypto = "1.0.1"     
+hex = "0.4.3"          
