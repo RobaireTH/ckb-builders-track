@@ -17,6 +17,15 @@ pub fn generate_ckb_address(network: NetworkType) -> Result<(Address, String), B
     Ok((address, privkey_hex))
 }
 
+pub fn privkey_to_address(network: NetworkType, privkey_hex: &str) -> Result<Address, Box<dyn Error>> {
+    let privkey_bytes = hex::decode(privkey_hex)?;
+    let secp_secret_key = secp256k1::SecretKey::from_slice(&privkey_bytes)?;
+    let pubkey = secp256k1::PublicKey::from_secret_key(&SECP256K1, &secp_secret_key)?;
+    let payload = AddressPayload::from_pubkey(&pubkey);
+    let address = Address::new(network, payload, true);
+    Ok(address)
+}
+
 // Generate both sender and receiver addresses.
 pub fn generate_addresses(network: NetworkType) -> Result<((Address, String), (Address, String)), Box<dyn Error>> {
     let sender = generate_ckb_address(network)?;
