@@ -1,8 +1,9 @@
 use ckb_sdk::rpc::CkbRpcClient;
 
-let testnet_url = "https://testnet.ckb.dev"; // Testnet
-let devnet_url = "http://127.0.0.1:8114"; // Devnet
-let mainnet_url = "https://mainnet.ckb.dev/rpc"; // Mainnet
+pub const TESTNET_URL: &str = "https://testnet.ckb.dev";
+pub const DEVNET_URL: &str = "http://127.0.0.1:8114";
+pub const MAINNET_URL: &str = "https://mainnet.ckb.dev/rpc";
 
-// Connect to Testnet
-let mut ckb_client = CkbRpcClient::new(testnet_url);
+pub fn get_testnet_client() -> CkbRpcClient {
+    CkbRpcClient::new(TESTNET_URL)
+}

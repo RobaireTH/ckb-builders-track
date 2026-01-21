@@ -7,7 +7,7 @@ use ckb_sdk::{
     },
     tx_builder::{transfer::CapacityTransferBuilder, CapacityBalancer, TxBuilder},
     unlock::{ScriptUnlocker, SecpSighashUnlocker},
-    Address, HumanCapacity, ScriptId, NetworkType, 
+    Address, HumanCapacity, ScriptId, NetworkType, secp256k1,
 };
 use ckb_types::{
     bytes::Bytes,
