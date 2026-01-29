@@ -53,9 +53,8 @@ fn main() {
     };
 
     println!("Sender Address: {}", sender_address.to_string());
-    // Only print private key if we generated it, or if user wants to see it? 
-    // The user script printed it before, so we will print it again but maybe mask it if loaded? 
-    // The user explicit asked to "keep the function... needed to generate both", implying dev/test context.
+    // Only print private key if generated 
+
     println!("Sender Private Key: {}", sender_privkey);
     println!("Receiver Address: {}", receiver_address.to_string());
 

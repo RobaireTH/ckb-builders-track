@@ -4,7 +4,7 @@ use ckb_crypto::secp::SECP256K1;
 use rand::Rng;
 use std::error::Error;
 
-// Generate a single ckb address.
+
 // Generate a single ckb address and its private key.
 pub fn generate_ckb_address(network: NetworkType) -> Result<(Address, String), Box<dyn Error>> {
     let mut rng = rand::thread_rng();
