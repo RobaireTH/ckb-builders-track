@@ -38,5 +38,11 @@ args = hash(event_id || creator_address)
 - I built the event UX and presence UX for the reference dApp. 
 - I hooked up the CCC connector for client signing, intergrating UTXO global wallet, JoyID, WalletConnect and UniPass. The experience with ```testnet.joyid.dev``` was nice considering I get to use the dev tools on there.
 
+## Proof of Participation
+You can find
+- the reference dApp [here](https://ckb-pop.vercel.app/#/)
+- the source code [here](https://github.com/RobaireTH/ckb-PoP)
+- other proof of participation [here](https://drive.google.com/drive/folders/1G3dDoAgRpyLovuElT43hoFySoBCe6i82?usp=drive_link)
+
 ## Challenges
 Considering I have been going from installations to installations for the past few weeks, my PC ran out of disk space and I couldn't really test the helpers via ```Axum``` . I only have the ```event-anchor``` and ```dob-badge``` scripts wired to the frontend yet. Note: Scripts are the UX helpers and the contracts are in ```/contracts```. I really can't find a better way to name the folders. So I guess that is one of my challenges. Using ```/backend``` makes it sound authoritative to me.
