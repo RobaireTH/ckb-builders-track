@@ -29,7 +29,7 @@
 - All state changes are expressed explicitly through transactions that consume existing cells and create new ones, making every transition transparent and deterministic.
 
 ## Practical Progress
-![PoP Network UI](../public/PoPNet.PNG)
+![PoP Network UI](../public/PoPNet.jpeg)
 - I started building a Proof-of-Presence protocol (```ckb-pop```) and its reference dApp(```PoP Network```). The idea is that presence should be provable, unique, and permanent without requiring anyone’s permission or trust. Servers shouldn't hand me the ```You were there!```. Click to check the [preview](https://ckb-pop.vercel.app/#/) build.
 - I designed the ```event-anchor``` such that an immutable cell proves the existence of an event and the event is tied to the creator address and hence making sure it is not modified or duplicated. No admin registry, just the uniqueness of the type script.
 ```rust
