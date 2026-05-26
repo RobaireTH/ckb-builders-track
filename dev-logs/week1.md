@@ -5,7 +5,7 @@
 ## Courses Completed
 -  The Learn module of the [Nervos Docs](https://docs.nervos.org/)
 -  CKB basic theoretical knowledge & [practical operation](https://academy.ckb.dev/courses/basic-operation)
--  Intro to [Script](https://docs.nervos.org/script/intro-to-script)
+-  Intro to [Script](https://docs.nervos.org/docs/script/intro-to-script)
 -  Program [Languages for Script](htpps://docs.nervos.org/script/program-language-for-script)
 
 ## Key Learnings
