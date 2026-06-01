@@ -86,7 +86,7 @@ A week off `pckt` shipping was the right call. The thing I would have built with
 The other reflection is that the WASM-in-browser constraint from Week 19 is not a problem to route around — it is an architectural decision I would have made wrong without the research. The share-link page already calls a backend for the packet preview render; routing the SSRI call through that same backend (or a sibling `ssri-server` instance) is one more endpoint, not a structural change. I would have spent days trying to get a CKB-VM WASM build working in the share-link bundle if I had not read the `ssri-server` README footnote.
 
 ## Proof of Participation
-- `drive` link: [Source](https://drive.google.com/drive/folders/1La-7AhYjXlPXLFQDG6Sltw2ksCkom4rU)
+- `drive` link: [Source](https://drive.google.com/drive/folders/16S0082-tDi00glbbudzHn_7DMujx1ONy?usp=drive_link)
 - Upstreamed PR on `nervosnetwork/docs.nervos.org` (commit `15b7466`) — seven dead-link fixes across six pages
 - `ckb-academy` NFT course fixes — `chapter_1.mdx`, `chapter_3.mdx`, `chapter_4.mdx`; Playground `REPO_PATH` 404 flagged as a structural follow-up
 - `ckb-pop` audit report (re-verified live this week): `~/audit.md` — six findings, priority patch order unchanged from February
