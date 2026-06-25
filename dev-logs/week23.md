@@ -1,5 +1,5 @@
 # CKBuilder Track Weekly Report - Week 23
-- Name: **Mayowa Temitope AKINYELE **
+- Name: **Mayowa Temitope AKINYELE**
 - Week Ending: **June 24, 2026**
 
 This week was a focused `pckt` implementation week. After last week's security-model review, I moved from describing the remaining product and correctness edges to tightening the packet lifecycle itself. The work landed in three connected areas: removing the old 64-recipient ceiling, making the frontend understand the real packet slot range, and fixing the backend lookup path so claim links always resolve to the latest live successor cell instead of an older version with the same public key.
